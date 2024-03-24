@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "eff7ff46-9637-4d73-a61a-bc5cd485bcc8",
+		"name": "CardManagement",
+		"description": "Collection para projeto de base de apis em spring boot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6724220"
+	},
+	"item": [
+		{
+			"name": "Salvar Cartao",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjYXJkLWFwaSIsImlhdCI6MTcxMTIzMzQ4NSwiZXhwIjoxNzExMjUxNDg1fQ.TjtpbDTzX_b2dXbqkT7OFm8NpHW3TkeJtGa2nXjBOxjCye0SBMxt9iKT1HXH45xo4XxsMNx6r5Af5WokMYjcSA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"lote\": \"\",\r\n  \"numero\": \"4516165168468868874\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/card",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read File",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjYXJkLWFwaSIsImlhdCI6MTcxMTIzMzQ4NSwiZXhwIjoxNzExMjUxNDg1fQ.TjtpbDTzX_b2dXbqkT7OFm8NpHW3TkeJtGa2nXjBOxjCye0SBMxt9iKT1HXH45xo4XxsMNx6r5Af5WokMYjcSA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"lote\": \"\",\r\n  \"numero\": \"4516165168468868874\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/readFile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"readFile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authenticate",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjYXJkLWFwaSIsImlhdCI6MTcxMTIzMzQ4NSwiZXhwIjoxNzExMjUxNDg1fQ.TjtpbDTzX_b2dXbqkT7OFm8NpHW3TkeJtGa2nXjBOxjCye0SBMxt9iKT1HXH45xo4XxsMNx6r5Af5WokMYjcSA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"lote\": \"\",\r\n  \"numero\": \"4516165168468868874\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/card",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarPeloId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/card/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"card",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Cartoes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/card/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"card",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
